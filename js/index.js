@@ -17,9 +17,6 @@ const quotes = [
 const button = document.getElementById('btn');
 const outputQuoteElement = document.getElementById('outputQuote');
 
-/* outputQuoteElement.addEventListener('click', (event) => {
-  document.getElementById('note').removeAttribute('hidden');
-}); */
 
 button.addEventListener('mouseover', (event) => {
   button.style.backgroundColor = '#568e8f';
@@ -46,11 +43,10 @@ button.addEventListener('mouseup', (event) => {
 })
 
 
-btn.addEventListener('click', (event) => {
+button.addEventListener('click', (event) => {
   let quotesIndex = Math.floor(Math.random() * quotes.length);
   let randomQuote = quotes[quotesIndex];
   outputQuoteElement.value = randomQuote;
-  
 }); 
 
 
