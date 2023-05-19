@@ -1,1 +1,54 @@
 /* Add your styles here */
+:root {
+    font-size: 16px;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #262626;
+    box-sizing: border-box;
+    
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.heading {
+    font-size: 3rem;
+}
+
+#note {
+    color: red;
+}
+
+#outputQuote {
+    width: 800px; 
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #5f9ea0;
+    border-radius: 5px;
+}
+
+#btn {
+    font-size: 1.1em;
+    background: #5f9ea0;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(38, 38, 38, 0.2) 1px 3px 5px;
+    cursor: pointer;
+    transition: all 250ms;
+}
+
+
+/* button color normal: #5f9ea0 */
+/* button color mouseover: #568e8f */
+/* button color mouseclick: #4d7f80 */
